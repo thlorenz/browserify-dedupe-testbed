@@ -1,0 +1,11 @@
+{
+  "name": "common",
+  "version": "0.0.0",
+  "description": "the common module that both foo and bar depend on ",
+  "main": "common.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thorsten Lorenz <thlorenz@gmx.de> (http://thlorenz.com/)",
+  "license": "BSD"
+}
