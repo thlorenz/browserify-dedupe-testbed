@@ -1,7 +1,9 @@
 var browserify = require('../browserify');
 
+console.error('\033[2J'); // clear console
+console.error('==================================================');
 browserify()
-  .require('./foo', { entry: true })
+  .require(require.resolve('./foo'), { entry: true })
   .bundle(function (err, bundle) {
     if (err) return console.error(err);
     console.log('\n\n=================================\n\n');
